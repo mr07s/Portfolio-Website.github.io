@@ -1,0 +1,165 @@
+@import url('https://fonts.googleapis.com/css2?family=Baloo+2:wght@700&family=Boogaloo&family=My+Soul&family=Playfair+Display&family=Tapestry&family=Ubuntu:ital,wght@1,300&family=Varela+Round&family=Water+Brush&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Baloo+2:wght@700&family=Boogaloo&family=Playfair+Display&family=Source+Code+Pro:wght@200&family=Tapestry&family=Ubuntu:ital,wght@1,300&family=Varela+Round&family=Water+Brush&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Baloo+2:wght@700&family=Boogaloo&family=Playfair+Display&family=Source+Code+Pro&family=Tapestry&family=Ubuntu:ital,wght@1,300&family=Varela+Round&family=Water+Brush&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Baloo+2:wght@700&family=Boogaloo&family=Playfair+Display&family=Silkscreen&family=Source+Code+Pro&family=Tapestry&family=Ubuntu:ital,wght@1,300&family=Varela+Round&family=Water+Brush&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Alkalami&family=Baloo+2:wght@700&family=Boogaloo&family=Peralta&family=Playfair+Display&family=Silkscreen&family=Source+Code+Pro&family=Tapestry&family=Ubuntu:ital,wght@1,300&family=Varela+Round&family=Water+Brush&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+
+
+
+.sidebar {
+    background-color: rgb(194, 191, 191);
+    /* width: 10vw; */
+    
+    /* width: 400px; */
+     font-family: 'Boogaloo', cursive;
+     height: 100vh;
+     transition: transform 0.4s ease-in;
+     position: absolute;
+}
+
+.sidebar nav 
+{
+    padding: 40px;
+    /* height: 100vh; */
+}
+
+.sidebar nav li {
+    list-style: none;
+    font-size: 25px;
+    padding: 20px 0;
+
+}
+.sidebar nav li a{
+
+text-decoration: none;
+color:black;
+
+}
+
+.main {
+    /* background-color: yellow; */
+    width: 90vw;
+    /* display: flex; */
+    /* justify-content: center; */
+    /* padding: 10px; */
+       margin-left: 30px;
+       padding: 20px;
+       margin-top: 70px;
+       
+}
+
+.container {
+
+    display: flex;
+
+}
+
+.intro{
+    font-size: 15px;
+}
+.intro h1
+{
+  
+    font-family: 'Fira Sans', sans-serif;
+    font-size: 2em;
+    margin-bottom: 5px;
+
+}
+.intro h2
+{
+    font-family: 'Fira Sans', sans-serif;
+    margin: 19px 2px 9px;
+    font-size: 2em;
+
+}
+.intro p
+{
+    font-family: 'Source Code Pro',monospace;
+    font-size: 1em;
+    
+}
+
+.skillcontainer
+{
+    padding: 7px ;
+}
+.skill
+{
+ /* padding: 10px; */
+margin: 10px;
+height: 3px;
+width: 200px;
+background-color: red;
+border: 1px solid black;
+display: flex;
+align-items: center;
+}
+.skillitem
+{
+    display: flex;
+    align-items: center;
+    font-family: 'Source Code Pro',monospace;
+     font-weight: 900;
+}
+.hundred
+{
+    width: 250px;
+    background-color: aqua;
+
+}
+.fifty
+{
+width: 125px;
+background-color: yellow;
+}
+.t5
+{
+width: 62px;
+background-color: coral;
+}
+@media(max-width:1115px){
+    /* *{ */
+/* max width 1615 */
+        /* background-color: red; */
+    /* } */
+/* .sidebar{
+
+    transform: translate(-443px,0px);
+    position: absolute;
+
+} */
+.devpic{
+
+    display: none;
+}
+.intro{
+  font-size:  10px;
+}
+}
+.sidebarGo{
+    transform: translate(-443px,0px);
+    position: absolute;
+}
+.threebtn{
+    position: absolute;
+    cursor: pointer;
+    top: 5px;
+    left: 10px;
+    margin-top: 15px;
+
+}
+.cross{
+   margin-left: 152px;
+   position: absolute;
+}
+
+/* .intro{
+    margin: 0px;
+} */
+
